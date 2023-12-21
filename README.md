@@ -1,2 +1,2 @@
 # rust-multi-platform-uniffi-lib
-A Rust multi platform library for iOS/Kotlin/Wasm. Uniffi-rs creates the bindings
+An example for a Rust multi-platform library for iOS/Kotlin and many more. The bindings are done with uniffi-rs and the package creation with cargo-swift
