@@ -23,8 +23,8 @@ impl Character {
     }
 }
 
-#[derive(thiserror::Error, uniffi::Error, Debug, PartialEq)]
-pub enum RequestError {
-    #[error("Failed to complete request")]
-    Failed,
+#[derive(uniffi::Object, Debug, PartialEq)]
+pub struct Note {
+    pub id: u8,
+    pub text: String,
 }
